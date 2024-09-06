@@ -14,4 +14,5 @@ spec:
     spec:
       containers:
         - name: auth
-          image: academind/kub-demo-auth:latest
+        # MAKE SURE TO UPDATE THIS OPTION
+          image: INSERT_IMAGE_NAME_IN_DOCKERHUB
