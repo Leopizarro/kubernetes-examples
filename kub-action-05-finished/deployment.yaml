@@ -20,7 +20,8 @@ spec:
     spec: 
       containers:
         - name: second-node
-          image: academind/kub-first-app:2
+          # MAKE SURE TO UPDATE THIS OPTION
+          image: INSERT_IMAGE_NAME_IN_DOCKERHUB
           imagePullPolicy: Always
           livenessProbe: 
             httpGet:
